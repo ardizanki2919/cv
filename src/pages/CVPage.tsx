@@ -24,7 +24,7 @@ export default function CVPage() {
                 </p>
                 <a
                   href="https://ardizanki.com"
-                  className="text-sm text-neutral-500 hover:text-neutral-700 transition-colors"
+                  className="text-sm text-neutral-500 hover:text-neutral-700 underline transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -55,21 +55,37 @@ export default function CVPage() {
               <div className="space-y-8">
                 {[{
                   year: "2025 — Now",
-                  title: "Software Quality Assurance at PT Farma Global Teknologi",
+                  title: "Software Quality Assurance at ",
+                  company: "PT Farma Global Teknologi",
+                  companyUrl: "https://farmagitechs.co.id/",
                   location: "Yogyakarta, Indonesia"
                 },{
                   year: "2022 — 2024",
-                  title: "Software Quality Assurance at PT Privy Identitas Digital",
+                  title: "Software Quality Assurance at ",
+                  company: "PT Privy Identitas Digital",
+                  companyUrl: "https://privy.id/",
                   location: "Yogyakarta, Indonesia"
                 },{
                   year: "2020 — 2022",
-                  title: "Software Quality Assurance at PT Solusi Digital Industri",
+                  title: "Software Quality Assurance at ",
+                  company: "PT Solusi Digital Industri",
+                  companyUrl: "https://solusidigital.co.id/",
                   location: "Yogyakarta, Indonesia"
                 }].map((job, i) => (
                   <div key={i} className="flex flex-col sm:flex-row gap-4">
                     <div className="text-sm text-neutral-500 sm:w-32 shrink-0">{job.year}</div>
                     <div className="flex-1">
-                      <h3 className="text-sm sm:text-base font-semibold text-neutral-900 mb-1">{job.title}</h3>
+                      <h3 className="text-sm sm:text-base font-semibold text-neutral-900 mb-1">
+                        {job.title}
+                        <a 
+                          href={job.companyUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline hover:text-neutral-600 transition-colors"
+                        >
+                          {job.company}
+                        </a>
+                      </h3>
                       <p className="text-sm text-neutral-600">{job.location}</p>
                     </div>
                   </div>
@@ -94,7 +110,7 @@ export default function CVPage() {
                         href={project.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-sm sm:text-base font-medium text-neutral-900 hover:text-neutral-600 transition-colors"
+                        className="text-sm sm:text-base font-medium text-neutral-900 hover:text-neutral-600 underline transition-colors"
                       >
                         {project.title}
                       </a>
@@ -111,7 +127,15 @@ export default function CVPage() {
                 <div className="text-sm text-neutral-500 sm:w-32 shrink-0">2015 — 2021</div>
                 <div className="flex-1">
                   <h3 className="text-sm sm:text-base font-semibold text-neutral-900 mb-1">
-                    Bachelor of Technology at UIN Sunan Kalijaga
+                    Bachelor of Technology at{' '}
+                    <a 
+                      href="https://uin-suka.ac.id/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline hover:text-neutral-600 transition-colors"
+                    >
+                      UIN Sunan Kalijaga
+                    </a>
                   </h3>
                   <p className="text-sm text-neutral-600">Yogyakarta, Indonesia</p>
                 </div>
@@ -139,7 +163,7 @@ export default function CVPage() {
                     <span className="text-sm text-neutral-500 w-24">{item.label}</span>
                     <a
                       href={item.href}
-                      className="text-sm text-neutral-900 hover:text-neutral-600 transition-colors"
+                      className="text-sm text-neutral-900 hover:text-neutral-600 underline transition-colors"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
