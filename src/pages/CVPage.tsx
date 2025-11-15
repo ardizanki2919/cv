@@ -12,13 +12,13 @@ export default function CVPage() {
               <Avatar className="h-20 w-20 sm:h-24 sm:w-24 ring-2 ring-neutral-100">
                 <AvatarImage
                   src="https://pxzhtaoxeuixihevswix.supabase.co/storage/v1/object/public/cv/ardizanki.png"
-                  alt="Ardi Zanki"
+                  alt="Ardi Setiawan"
                 />
                 <AvatarFallback className="text-2xl font-semibold">AZ</AvatarFallback>
               </Avatar>
 
               <div className="flex-1">
-                <h1 className="text-2xl sm:text-3xl font-bold text-neutral-900 mb-2">Ardi Zanki</h1>
+                <h1 className="text-2xl sm:text-3xl font-bold text-neutral-900 mb-2">Ardi Setiawan</h1>
                 <p className="text-sm sm:text-base text-neutral-600 mb-2">
                   QA Engineer | Front-end Engineer in Yogyakarta, Indonesia
                 </p>
