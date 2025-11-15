@@ -14,7 +14,7 @@ export default function CVPage() {
                   src="https://pxzhtaoxeuixihevswix.supabase.co/storage/v1/object/public/cv/ardizanki.png"
                   alt="Ardi Setiawan"
                 />
-                <AvatarFallback className="text-2xl font-semibold">AZ</AvatarFallback>
+                <AvatarFallback className="text-2xl font-semibold">Ardi</AvatarFallback>
               </Avatar>
 
               <div className="flex-1">
