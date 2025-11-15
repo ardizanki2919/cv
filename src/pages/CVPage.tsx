@@ -38,10 +38,9 @@ export default function CVPage() {
               <h2 className="text-lg sm:text-xl font-bold text-neutral-900 mb-4">About</h2>
               <div className="space-y-4 text-sm sm:text-base text-neutral-700 leading-relaxed">
                 <p>
-                  I'm Ardi, a QA Engineer with 5 years of hands-on experience in both manual and automated testing.
-                  My expertise includes API testing with Postman, end-to-end testing with Playwright, and CI/CD automation
-                  with GitHub Actions. I also have experience with database validation using SQL and organizing test cases
-                  in spreadsheets.
+                  I'm Ardi, a QA Engineer with 5 years of hands-on experience in manual and automated testing. 
+                  I specialize in API testing with Postman, end-to-end automation with Playwright, and CI/CD integration with 
+                  GitHub Actions. My skill set also includes SQL-based database validation and comprehensive test case management.
                 </p>
                 <p>
                   I'm currently transitioning from QA Engineering to Software Engineering to build modern and scalable web
@@ -82,16 +81,26 @@ export default function CVPage() {
             <section className="mb-10 sm:mb-12">
               <h2 className="text-lg sm:text-xl font-bold text-neutral-900 mb-6">Side Projects</h2>
               <div className="space-y-6">
-                {["Ardizanki.com", "React Router v7 Contacts App", "React Router v6 Contacts App", "Web Automation with Playwright", "API Automation with Postman"].map(
-                  (title, i) => (
-                    <div key={i} className="flex flex-col sm:flex-row gap-4">
-                      <div className="text-sm text-neutral-500 sm:w-32 shrink-0">2025</div>
-                      <div className="flex-1">
-                        <h3 className="text-sm sm:text-base font-medium text-neutral-900">{title}</h3>
-                      </div>
+                {[
+                  { title: "Personal Website (ardizanki.com)", url: "https://ardizanki.com/" },
+                  { title: "Interactive CV", url: "https://cv.ardizanki.com/" },
+                  { title: "React Router v7 Contacts App", url: "https://contacts-v7.ardizanki.com/" },
+                  { title: "Web Automation with Playwright", url: "https://github.com/ardizanki2919/web-automation-with-playwright" }
+                ].map((project, i) => (
+                  <div key={i} className="flex flex-col sm:flex-row gap-4">
+                    <div className="text-sm text-neutral-500 sm:w-32 shrink-0">2025</div>
+                    <div className="flex-1">
+                      <a 
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm sm:text-base font-medium text-neutral-900 hover:text-neutral-600 transition-colors"
+                      >
+                        {project.title}
+                      </a>
                     </div>
-                  )
-                )}
+                  </div>
+                ))}
               </div>
             </section>
 
@@ -114,10 +123,6 @@ export default function CVPage() {
               <h2 className="text-lg sm:text-xl font-bold text-neutral-900 mb-6">Contact</h2>
               <div className="space-y-3">
                 {[{
-                  label: "X (Twitter)",
-                  href: "https://x.com/ardizanki7",
-                  value: "ardizanki7"
-                },{
                   label: "LinkedIn",
                   href: "https://linkedin.com/in/ardizanki",
                   value: "ardizanki"
@@ -125,6 +130,10 @@ export default function CVPage() {
                   label: "GitHub",
                   href: "https://github.com/ardizanki2919",
                   value: "ardizanki2919"
+                },{
+                  label: "X (Twitter)",
+                  href: "https://x.com/ardizanki7",
+                  value: "ardizanki7"
                 }].map((item, i) => (
                   <div key={i} className="flex items-center gap-4 sm:gap-12">
                     <span className="text-sm text-neutral-500 w-24">{item.label}</span>
