@@ -20,7 +20,7 @@ export default function CVPage() {
               <div className="flex-1">
                 <h1 className="text-2xl sm:text-3xl font-bold text-neutral-900 mb-2">Ardi Setiawan</h1>
                 <p className="text-sm sm:text-base text-neutral-600 mb-2">
-                  QA Engineer | Frontend Engineer in Yogyakarta, Indonesia
+                  Software Engineer in Yogyakarta, Indonesia
                 </p>
                 <a
                   href="https://ardizanki.com"
@@ -38,12 +38,12 @@ export default function CVPage() {
               <h2 className="text-lg sm:text-xl font-bold text-neutral-900 mb-4">About</h2>
               <div className="space-y-4 text-sm sm:text-base text-neutral-700 leading-relaxed">
                 <p>
-                  I'm Ardi, a QA Engineer with 5 years of hands-on experience in manual and automated testing. 
-                  I specialize in API testing with Postman, end-to-end automation with Playwright, and CI/CD integration with 
-                  GitHub Actions. My skill set also includes SQL-based database validation and comprehensive test case management.
+                  I'm Ardi, a QA Engineer with 5 years of hands-on experience in manual and automated testing. I specialize 
+                  in API testing with Postman, end-to-end automation with Playwright, and CI/CD integration with GitHub Actions. 
+                  My skills also include SQL-based database validation and comprehensive test case management.
                 </p>
                 <p>
-                  I'm currently transitioning from QA Engineering to Software Engineering to build modern and scalable web
+                  I'm currently transitioning from QA to Software Engineering, focusing on building modern and scalable web 
                   applications. In my spare time, I work on personal projects using TypeScript and React.
                 </p>
               </div>
