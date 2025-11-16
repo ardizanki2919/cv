@@ -20,7 +20,7 @@ export default function CVPage() {
               <div className="flex-1">
                 <h1 className="text-2xl sm:text-3xl font-bold text-neutral-900 mb-2">Ardi Setiawan</h1>
                 <p className="text-sm sm:text-base text-neutral-600 mb-2">
-                  QA Engineer | Front-end Engineer in Yogyakarta, Indonesia
+                  QA Engineer | Frontend Engineer in Yogyakarta, Indonesia
                 </p>
                 <a
                   href="https://ardizanki.com"
