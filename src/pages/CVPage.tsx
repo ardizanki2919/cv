@@ -43,8 +43,9 @@ export default function CVPage() {
                   My skills also include SQL-based database validation and comprehensive test case management.
                 </p>
                 <p>
-                  I'm currently transitioning from QA to Software Engineering, focusing on building modern and scalable web 
-                  applications. In my spare time, I work on personal projects using TypeScript and React.
+                  I'm currently transitioning from QA to Software Engineering, leveraging my testing mindset to write better, 
+                  more reliable code. I focus on building modern and scalable web applications, and in my spare time, I work on 
+                  personal projects using TypeScript and React.
                 </p>
               </div>
             </section>
