@@ -38,13 +38,16 @@ export default function CVPage() {
               <h2 className="text-lg sm:text-xl font-semibold text-neutral-900 mb-6">About</h2>
               <div className="space-y-4 text-sm sm:text-base text-neutral-700 leading-relaxed">
                 <p>
-                  Design Engineer specializing in building polished web interfaces with React and TypeScript. 
-                  With 5 years of QA engineering experience, I bring a unique testing-first mindset to design 
-                  engineering, ensuring reliability and attention to detail in every component.
+                  I'm Ardi, a Design Engineer based in Indonesia. I build polished web interfaces using React 
+                  and TypeScript, with a strong focus on quality and user experience.
                 </p>
                 <p>
-                  I work with Figma for design, React and TypeScript for implementation, and focus on creating 
-                  seamless user experiences through design systems and smooth interactions.
+                  My background as a QA Engineer (5 years) gives me a unique perspective—I approach design engineering 
+                  with a testing mindset, ensuring reliability and attention to detail in every component I create.
+                </p>
+                <p>
+                  I work with Figma for design and React with TypeScript for implementation, and I enjoy 
+                  exploring design systems and creating smooth interactions.
                 </p>
               </div>
             </section>
