@@ -136,13 +136,13 @@ export default function CVPage() {
               <div className="space-y-6">
                 {[
                   { 
-                    year: "2024 — Now",
+                    year: "2025 — Now",
                     title: "Personal Website", 
                     url: "https://ardizanki.com/",
                     description: "Portfolio site built with React Router v7, TypeScript, and Tailwind CSS showcasing design engineering work."
                   },
                   { 
-                    year: "2024",
+                    year: "2025",
                     title: "React Router v7 Contacts App", 
                     url: "https://contacts-v7.ardizanki.com/",
                     description: "Full-featured contacts management app exploring React Router v7 capabilities with modern data loading patterns."
