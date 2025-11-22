@@ -18,7 +18,7 @@ export default function CVPage() {
               </Avatar>
 
               <div className="flex-1">
-                <h1 className="text-2xl sm:text-3xl font-bold text-neutral-900 mb-2">Ardi Setiawan</h1>
+                <h1 className="text-2xl sm:text-3xl font-semibold text-neutral-900 mb-2">Ardi Setiawan</h1>
                 <p className="text-sm sm:text-base text-neutral-600 mb-2">
                   Software Engineer in Yogyakarta, Indonesia
                 </p>
@@ -35,7 +35,7 @@ export default function CVPage() {
 
             {/* About */}
             <section className="mb-10 sm:mb-12">
-              <h2 className="text-lg sm:text-xl font-bold text-neutral-900 mb-4">About</h2>
+              <h2 className="text-lg sm:text-xl font-semibold text-neutral-900 mb-4">About</h2>
               <div className="space-y-4 text-sm sm:text-base text-neutral-700 leading-relaxed">
                 <p>
                   I'm Ardi, a QA Engineer with 5 years of hands-on experience in manual and automated testing. I specialize 
@@ -52,31 +52,31 @@ export default function CVPage() {
 
             {/* Work Experience */}
             <section className="mb-10 sm:mb-12">
-              <h2 className="text-lg sm:text-xl font-bold text-neutral-900 mb-6">Work Experience</h2>
+              <h2 className="text-lg sm:text-xl font-semibold text-neutral-900 mb-6">Work Experience</h2>
               <div className="space-y-8">
                 {[{
                   year: "2025 — Now",
-                  title: "Software Quality Assurance at ",
-                  company: "PT Farma Global Teknologi",
+                  title: "QA Engineer at ",
+                  company: "Farmagitechs",
                   companyUrl: "https://farmagitechs.co.id/",
                   location: "Yogyakarta, Indonesia"
                 },{
                   year: "2022 — 2024",
-                  title: "Software Quality Assurance at ",
-                  company: "PT Privy Identitas Digital",
+                  title: "QA Engineer at ",
+                  company: "Privy",
                   companyUrl: "https://privy.id/",
                   location: "Yogyakarta, Indonesia"
                 },{
                   year: "2020 — 2022",
-                  title: "Software Quality Assurance at ",
-                  company: "PT Solusi Digital Industri",
+                  title: "QA Engineer at ",
+                  company: "Solusi Digital",
                   companyUrl: "https://solusidigital.co.id/",
                   location: "Yogyakarta, Indonesia"
                 }].map((job, i) => (
                   <div key={i} className="flex flex-col sm:flex-row gap-4">
                     <div className="text-sm text-neutral-500 sm:w-32 shrink-0">{job.year}</div>
                     <div className="flex-1">
-                      <h3 className="text-sm sm:text-base font-semibold text-neutral-900 mb-1">
+                      <h3 className="text-sm sm:text-base text-neutral-900 mb-1">
                         {job.title}
                         <a 
                           href={job.companyUrl}
@@ -96,7 +96,7 @@ export default function CVPage() {
 
             {/* Side Projects */}
             <section className="mb-10 sm:mb-12">
-              <h2 className="text-lg sm:text-xl font-bold text-neutral-900 mb-6">Side Projects</h2>
+              <h2 className="text-lg sm:text-xl font-semibold text-neutral-900 mb-6">Side Projects</h2>
               <div className="space-y-6">
                 {[
                   { title: "Personal Website (ardizanki.com)", url: "https://ardizanki.com/" },
@@ -111,7 +111,7 @@ export default function CVPage() {
                         href={project.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-sm sm:text-base font-medium text-neutral-900 hover:text-neutral-600 underline transition-colors"
+                        className="text-sm sm:text-base text-neutral-900 hover:text-neutral-600 underline transition-colors"
                       >
                         {project.title}
                       </a>
@@ -123,11 +123,11 @@ export default function CVPage() {
 
             {/* Education */}
             <section className="mb-10 sm:mb-12">
-              <h2 className="text-lg sm:text-xl font-bold text-neutral-900 mb-6">Education</h2>
+              <h2 className="text-lg sm:text-xl font-semibold text-neutral-900 mb-6">Education</h2>
               <div className="flex flex-col sm:flex-row gap-4">
                 <div className="text-sm text-neutral-500 sm:w-32 shrink-0">2015 — 2021</div>
                 <div className="flex-1">
-                  <h3 className="text-sm sm:text-base font-semibold text-neutral-900 mb-1">
+                  <h3 className="text-sm sm:text-base text-neutral-900 mb-1">
                     Bachelor of Technology at{' '}
                     <a 
                       href="https://uin-suka.ac.id/"
@@ -145,7 +145,7 @@ export default function CVPage() {
 
             {/* Contact */}
             <section>
-              <h2 className="text-lg sm:text-xl font-bold text-neutral-900 mb-6">Contact</h2>
+              <h2 className="text-lg sm:text-xl font-semibold text-neutral-900 mb-6">Contact</h2>
               <div className="space-y-3">
                 {[{
                   label: "LinkedIn",
